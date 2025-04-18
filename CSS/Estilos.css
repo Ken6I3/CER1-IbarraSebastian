@@ -1,0 +1,74 @@
+
+.contenedor-img{
+    max-width: 70px;
+    height: auto;
+}
+
+.distribuir-fondo{
+    padding-top: 75px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-content: top;
+}
+
+.distribuir-fotos{
+    max-width: 50%;
+    max-height: 50%;
+    display: flex;
+}
+
+.suavizado-borde{
+    border-radius: 30px;
+}
+
+.altura-dis{
+    display: flex;
+}
+
+.altura-dis > div {
+    flex: 1;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px #dee2e6;
+}
+
+.carrusel-vertical1{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.carrusel-vertical1 img {
+    width: 70%;
+    height: auto;
+}
+
+.deco-incarnon-c{
+    background-image: url("../img/fondo-vacio-warframe.webp");
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border-radius: 12px;
+    width: auto;
+    margin: 50px auto;
+  }
+
+.deco-incarnon{
+    background-color: #3cc8a2;
+    border-radius: 3px;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}

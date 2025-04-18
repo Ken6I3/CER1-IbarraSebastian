@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <link rel="stylesheet" href="CSS/Estilos.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Newsframe</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid ">
+      <a class="navbar-brand" href="#">
+      </a>
+      <img src="img/warframe.png" alt="" class="contenedor-img">
+      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContenido"
+        aria-controls="navbarContenido" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarContenido">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#seccion-inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#seccion-novedades">Novedades</a></li>
+          <li class="nav-item"><a class="nav-link" href="#seccion-resurgimiento">Resurgimiento</a></li>
+          <li class="nav-item"><a class="nav-link" href="#seccion-incarnon">Incarnon</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <img src="img/fondo-warframe.jpg" alt="" class="distribuir-fondo">
+
+  <!-- Carrusel novedades -->
+  <section id="seccion-novedades" class="container my-5">
+    <h2 class="mb-4">Novedades</h2>
+    <div id="carouselNovedades" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active"><!--Los hex-->
+          
+          <p><img src="img/gemini-collection.jpg" class="d-block w-100 suavizado-borde" alt="Sindicato-Hex">
+          <h1>Warframe 1999 ya está aqui! Personaliza tus warframes con los nuevos aspectos gemini, explora hollvania o
+            conoce al nuevo sindicato:</h1>
+          <p>
+            
+          <h1 class="text-center">
+            <strong>Los Hex</strong>
+            <img src="img/simboloHex.png" class="mx-auto d-block distribuir-fotos" alt="" >
+          </h1>
+
+        </div>
+        <div class="carousel-item"><!--Temple-->
+          <img src="img/temple.png" class="d-block w-100 suavizado-borde" alt="Warframe-Temple">
+
+          <p>
+            <h1>Conoce al nuevo Warframe: <strong>Temple</strong></h1>
+            <h1>Evita grandes masas de enemigos o hazlos explotar, la capacidad que tiene Temple para controlar enemigos nunca fue tan fácil gracias a su guitarra Lizzie!</h1>
+          </p>
+        </div>
+        <div class="carousel-item"><!--Resurgimiento prime-->
+          <img src="img/ResurgimientoPrime.png" class="d-block w-100 suavizado-borde" alt="Warframe-Banshee&Mirage-Prime">
+
+          <p>
+            <h1><strong>Resurgimiento prime:</strong></h1>
+            <h2>Controla tus decibelios con Banshee Prime! Si necesitas aumentar el volumen para que suba el ritmo de la misión o si necesitas ir despacio y sigiloso, es la mejor opción para misiones con múltiples objetivos!</h2>
+            <h2>Se el rey del engaño, esquiva, asusta y distrae con Mirage Prime! Perfecto para controlar grandes grupos de enemigos y completar objetivos sin recibir ni una pizca de daño, además de aumentar la potencia de su arsenal con sus señuelos!</h2>
+          </p>
+
+        </div>
+        
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselNovedades" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselNovedades" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+
+    </div>
+  </section>
+
+  <!-- DOS COLUMNAS IGUALES -->
+  <section id="seccion-resurgimiento" class="container mb-5">
+    <div class="row altura-dis">
+      <div class="col-md-6">
+        <h3>Set de reliquias: Banshee Prime</h3>
+        <p><!--Reliquia-PlanoGeneral-->
+          <h5><Strong>Plano General</Strong></h5>
+          <h6>Meso T2</h6>
+          <h6>Neo H1</h6>
+          <h6>Neo N7</h6>
+          <h6>Neo T1</h6>
+          <h6>Neo V7</h6>
+          <h6>Axi C3</h6>
+          <h6>Axi K3</h6>
+        </p>
+
+        <p><!--Reliquia-Sistemas-->
+          <h5><Strong>Plano Sistemas</Strong></h5>
+          <h6>Neo B4</h6>
+          <h6>Neo B5</h6>
+          <h6>Axi B1</h6>
+          <h6>Axi B2</h6>
+        </p>
+
+        <p><!--Reliquia-Neuropticas-->
+          <h5><Strong>Plano Neuropticas</Strong></h5>
+          <h6>Lith B5</h6>
+          <h6>Lith V5</h6>
+          <h6>Meso S4</h6>
+          <h6>Neo K2</h6>
+          <h6>Neo S7</h6>
+        </p>
+
+        <p><!--Reliquia-Chasis-->
+          <h5><Strong>Plano Chasis</Strong></h5>
+          <h6>Meso B2</h6>
+          <h6>Neo B1</h6>
+          <h6>Neo B2</h6>
+        </p>
+      </div>
+      <div class="col-md-6">
+        <h3>Set de reliquias: Mirage Prime</h3>
+        <p><!--Reliquia-PlanoGeneral-->
+          <h5><Strong>Plano General</Strong></h5>
+          <h6>Axi M1</h6>
+          <h6>Meso M2</h6>
+          <h6>Meso M3</h6>
+          <h6>Neo M1</h6>
+          <h6>Axi M1</h6>
+        </p>
+
+        <p><!--Reliquia-Sistemas-->
+          <h5><Strong>Plano Sistemas</Strong></h5>
+          <h6>Meso O2</h6>
+          <h6>Neo K2</h6>
+          <h6>Neo S12</h6>
+          <h6>Neo V6</h6>
+          <h6>Axi R2</h6>
+        </p>
+
+        <p><!--Reliquia-Neuropticas-->
+          <h5><Strong>Plano Neuropticas</Strong></h5>
+          <h6>Lith W1</h6>
+          <h6>Lith Z1</h6>
+          <h6>Meso H1</h6>
+          <h6>Neo G1</h6>
+          <h6>Neo S9</h6>
+          <h6>Axi T2</h6>
+        </p>
+
+        <p><!--Reliquia-Chasis-->
+          <h5><Strong>Plano Chasis</Strong></h5>
+          <h6>Lith S7</h6>
+          <h6>Meso K2</h6>
+          <h6>Neo L1</h6>
+          <h6>Axi H4</h6>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Incarnons -->
+  <section id="seccion-incarnon"class="container mb-5">
+    <h2 class="mb-4">Armas Incarnon de: <h1 class="text-center"><p id="fecha"></p></h1> </h2>
+    <div class="row g-3 deco-incarnon-c">
+      <div class="col-md-3">
+        <h1 class="text-center"><p>Semana 1</p></h1>
+        <div class="carrusel-vertical1">
+          <img src="img/BratonIncarnonGenesis.webp">
+          <h6 class="deco-incarnon">-Braton Génesis Incarnon-</h6>
+          <img src="img/LatoIncarnonGenesis.webp">
+          <h6 class="deco-incarnon">-Lato Génesis Incarnon-</h6>
+          <img src="img/SkanaIncarnonGenesis.webp">
+          <h6 class="deco-incarnon">-Skana Génesis Incarnon-</h6>
+          <img src="img/ParisIncarnonGenesis.webp">
+          <h6 class="deco-incarnon">-Paris Génesis Incarnon-</h6>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <h1 class="text-center">Semana 2</h1>
+        <div class="carrusel-vertical1">
+          <img src="img/BoarIncarnonGenesis.webp">
+          <h6 class="deco-incarnon">-Boar Génesis Incarnon-</h6>
+          <img src="img/GammacorIncarnonGenesis.webp">
+          <h6 class="deco-incarnon">-Gammacor Génesis Incarnon-</h6>
+          <img src="img/AngstrumIncarnonGenesis.webp">
+          <h6 class="deco-incarnon">-Angstrum Génesis Incarnon-</h6>
+          <img src="img/GorgonIncarnonGenesis.webp">
+          <h6 class="deco-incarnon">-Gorgon Génesis Incarnon-</h6>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <h1 class="text-center">Semana 3</h1>
+        <div class="carrusel-vertical1">
+          <img src="img/AnkuIncarnonGenesis.webp">
+          <h6 class="deco-incarnon">-Anku Génesis Incarnon-</h6>
+          <img src="img/BoIncarnonGenesis.webp">
+          <h6 class="deco-incarnon">-Bo Génesis Incarnon-</h6>
+          <img src="img/FurisIncarnonGenesis.webp">
+          <h6 class="deco-incarnon">-Furis Génesis Incarnon-</h6>
+          <img src="img/FuraxIncarnonGenesis.webp">
+          <h6 class="deco-incarnon">-Furax Génesis Incarnon-</h6>
+        </div>
+      </div>
+      <div class="col-md-3 ">
+        <h1 class="text-center">Semana 4</h1>
+        <div class="carrusel-vertical1">
+          <img src="img/StrunIncarnonGenesis.webp">
+          <h6 class="deco-incarnon">-Strun Génesis Incarnon-</h6>
+          <img src="img/LexIncarnonGenesis.webp">
+          <h6 class="deco-incarnon">-Lex Génesis Incarnon-</h6>
+          <img src="img/MagistarIncarnonGenesis.webp">
+          <h6 class="deco-incarnon">-Magistar Génesis Incarnon-</h6>
+          <img src="img/BoltorIncarnonGenesis.webp">
+          <h6 class="deco-incarnon">-Boltor Génesis Incarnon-</h6>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>2025 Newsframe. Todos los derechos reservados.</p>
+      <p>Pagina oficial de warframe: </p><a href="https://warframe.com">warframe.com</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const fecha = new Date();
+
+    const mes = {month: 'long'};
+    const fechaExt = fecha.toLocaleDateString('es-ES', mes);
+
+    document.getElementById('fecha').textContent = fechaExt;
+  </script>
+</body>
+
+</html>
